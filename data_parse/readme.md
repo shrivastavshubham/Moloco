@@ -1,9 +1,9 @@
 # Moloco online assessment question-2
-#Run file rank_product.py
-#to get the desired two results asked in the question
-#
-#Dabatabse is extracted from a separate class in database.py file
-#to maintain single responsility of the code
-#
-#Json parsing into dictionary is handles separately again
-#in the file json_load.py
+1.Run file rank_product.py to get the required o/p of the 
+two rankinf problems
+
+2.Dabatabse is extracted in a separate function defined in database class 
+in database.py file in order to  maintain single responsility of the code
+
+3.Json parsing into dictionary is handled separately,
+in the file json_load.py
