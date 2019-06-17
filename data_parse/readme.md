@@ -1,5 +1,16 @@
 # Moloco online assessment question-2
-Problem Statement:
+
+1.Run file rank_product.py to get the required o/p of the
+two ranking problems
+
+2.Dabatabse is extracted in a separate function defined in database class
+in database.py file in order to  maintain single responsility of the code
+
+3.Json parsing into dictionary is handled separately,
+in the file json_load.py
+
+
+# Problem Statement:
 Using one of the languages from {Go, Python, Java, C++}, implement a function/method that computes the most popular product(s) according to two different measures.
 Implement this function/method and submit a link to your code (answer) below.
 You can share via a link to your code using free websites like https://gist.github.com/ or ideone.com.
@@ -37,13 +48,3 @@ You can assume that the input file is fairly small in size (less than 1M lines).
 user_id and product_id are both strings of length at most 10.
 quantity is a positive integer between 1 and 100.
 Each line is a valid JSON message and always contains three elements (user_id, product_id, and quantity).
-
-
-1.Run file rank_product.py to get the required o/p of the 
-two ranking problems
-
-2.Dabatabse is extracted in a separate function defined in database class 
-in database.py file in order to  maintain single responsility of the code
-
-3.Json parsing into dictionary is handled separately,
-in the file json_load.py
