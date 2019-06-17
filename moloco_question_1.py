@@ -11,7 +11,7 @@ You can share via a link to your code using free websites like https://gist.gith
 #m = length of string x
 #n = length of string y 
 
-#Spcace Complexity = O(1)
+#Space Complexity = O(1)
 class Solution:
     def equalsWhenOneCharRemoved(self, x, y):
 	#############################
