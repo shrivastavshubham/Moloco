@@ -24,16 +24,21 @@ Part-1
 Part-2
 
 LC3A59	N0OTG	26
+
 LC06C3	N0OTG	25
+
 LC3C9D	N0OTG	17
+
 LC3C7E	3POLC	15
 
 Part-3
 
 
-1043 5NPAU
-564	 N0OTG
-296	 QGO3G
+5NPAU 1043
+
+N0OTG 564	 
+
+QGO3G 296
 
 The dataset should have unique timestmap per 
 user/country/site
