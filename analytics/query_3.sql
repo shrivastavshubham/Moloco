@@ -1,6 +1,6 @@
-#Incorrect answer as the dataset should have 1 row per timestamp per user
+#Answer could be incorrect  as the dataset should have 1 row per timestamp per user
 #if it would have been like mentioned then the query should be:
-#The order still should be correct
+#The order of the result still should be correct
 
 SELECT f.site_id,count(*) AS cnt
 FROM (SELECT max(ts) as ts1, user_id
