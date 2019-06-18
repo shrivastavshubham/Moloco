@@ -1,6 +1,5 @@
-# Question 3
-Decided to solve in Mysql because the problem had
-inputs to support it.
+# Moloco online assessment question-3
+Decided to solve in Mysql.
 
 Problem Statement:
 
