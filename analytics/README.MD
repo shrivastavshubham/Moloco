@@ -1,5 +1,5 @@
 # Moloco online assessment question-3
-Decided to solve in Mysql.
+Decided to solve using Mysql.
 
 Problem Statement:
 
