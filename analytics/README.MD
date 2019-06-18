@@ -30,14 +30,19 @@ LC3C7E	3POLC	15
 
 Part-3
 
-Incorrect ans (as dups in dataset for same timestamp,user,site,country)
-1043	5NPAU
-564	N0OTG
-296	QGO3G
+
+1043 5NPAU
+564	 N0OTG
+296	 QGO3G
+
+The dataset should have unique timestmap per 
+user/country/site
+to get the exact result.
+
 
 Part-4
 
-Didn't get the answer as dups in dataset (mentioned before)
+1916
 
 If the dataset would have had unique rows it would have,
 been possible (easier) to query using mysql.
