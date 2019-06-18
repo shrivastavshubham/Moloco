@@ -13,9 +13,9 @@ SELECT  distinct user_id, min(ts) as minTime FROM  mytable GROUP BY  user_id;
 
 
 #Query at the end should be
-select tbl1.site_id, count(*) from
-(SELECT user_id, max(ts) as maxTime FROM  mytable GROUP BY  user_id) as tbl1,
-(SELECT user_id, min(ts) as minTime FROM  mytable GROUP BY  user_id) as tbl2
-where tbl1.user_id = tbl2.user_id
-group by tbl1.site_id
-order by count(*) desc;
+
+SELECT count(*) FROM (
+(SELECT max(ts) as ts1, user_id FROM  mytable GROUP BY user_id) as x,
+(SELECT min(ts) as ts2, user_id FROM  mytable GROUP BY user_id) as y
+) where x.user_id = y.user_id
+;
