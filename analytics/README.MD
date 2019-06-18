@@ -55,7 +55,5 @@ Part-4
 If the dataset would have had unique rows it would have,
 been possible (easier) to query using mysql.
 The possible query is present in the query(sql) files.
-The problem could be solved using in any programming language,
-but the code could be messy.
 
 
