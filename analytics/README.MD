@@ -1,4 +1,7 @@
 # Question 3
+Decided to solve in Mysql because the problem had
+inputs to support it.
+
 Problem Statement:
 
 "Suppose you have time-series data consisting of (timestamp, user_id, country_id, site_id).
@@ -55,6 +58,4 @@ The possible query is present in the query(sql) files.
 The problem could be solved using in any programming language,
 but the code could be messy.
 
-Decided to solve in Mysql because the problem had
-inputs to support it.
 
